@@ -1,0 +1,83 @@
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/117/002/original/mahyar-motebassem-123wTsGP4LU-unsplash.png?1709150801");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: "Noto Serif Display", serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 80px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 180px;
+  font-weight: 900;
+  background-color: black;
+  display: inline-block;
+  padding: 5px 30px;
+}
+p {
+  margin-top: 200px;
+  margin-bottom: 50px;
+  display: inline-block;
+  font-size: 18px;
+  background: white;
+  padding: 10px 20px;
+  max-width: 900px;
+  line-height: 1.5;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  background-color: rgb(242, 122, 36);
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: all 350ms ease-in-out;
+  margin: 20px 10px;
+  font-size: 14px;
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(22, 22, 22);
+}
+
+img {
+  margin-top: 200px;
+  margin-bottom: 30px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact-link a {
+  color: rgb(9, 9, 9);
+  text-decoration: underline;
+  background-color: transparent;
+  font-size: 18px;
+  margin-left: 0;
+  font-style: bold;
+}
+
+@media (max-width: 992px) {
+  h1 {
+    font-size: 24px;
+    margin-top: 40px;
+  }
+  p {
+    font-size: 12px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+  }
+  a {
+    font-size: 10px;
+    margin: 5px 5px;
+  }
+  img {
+    margin-top: 70px;
+  }
+}
